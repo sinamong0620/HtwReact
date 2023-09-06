@@ -6,6 +6,8 @@ import DemoOutput from "./components/Demo/DemoOuutput";
 
 function App() {
   const [showParagraph, setShowParagraph] = useState(false);
+
+  console.log("APP RUNNING");
   const toggleParagraphHandler = () => {
     setShowParagraph((prevShowParagraph) => !prevShowParagraph);
   };
